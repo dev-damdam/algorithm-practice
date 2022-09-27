@@ -9,6 +9,6 @@ BISHOPS = 2
 KNIGHTS = 2
 PAWNS = 8
 
-king, queen, rooks, bishops, knights, pawns = input().split()
+king, queen, rooks, bishops, knights, pawns = map(int, input().split())
 
-print("%d %d %d %d %d %d" % (KING - int(king), QUEEN - int(queen), ROOKS - int(rooks), BISHOPS - int(bishops), KNIGHTS - int(knights), PAWNS - int(pawns)))
+print("%d %d %d %d %d %d" % (KING - king, QUEEN - queen, ROOKS - rooks, BISHOPS - bishops, KNIGHTS - knights, PAWNS - pawns))

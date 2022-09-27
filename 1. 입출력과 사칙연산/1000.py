@@ -1,6 +1,6 @@
 #첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
 
-A, B = input().split()
+A, B = map(int, input().split())
 
-sum = int(A) + int(B)
-print(sum)
+result = A + B
+print(result)
